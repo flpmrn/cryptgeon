@@ -1,0 +1,61 @@
+{
+	"common": {
+		"note": "nota",
+		"file": "arquivo",
+		"advanced": "avançado",
+		"create": "criar",
+		"loading": "carregando",
+		"mode": "modo",
+		"views": "{n, plural, =0 {visualizações} =1 {1 visualização} other {# visualizações}}",
+		"minutes": "{n, plural, =0 {minutos} =1 {1 minuto} other {# minutos}}",
+		"max": "máx.",
+		"share_link": "compartilhar link",
+		"copy_clipboard": "copiar para a área de transferência",
+		"copied_to_clipboard": "copiado para a área de transferência",
+		"encrypting": "criptografando",
+		"decrypting": "descriptografando",
+		"uploading": "enviando",
+		"downloading": "baixando",
+		"qr_code": "código qr",
+		"password": "senha"
+	},
+	"home": {
+		"intro": "Envie notas ou arquivos seguros e <i>totalmente criptografados</i> com um clique. Basta criar uma nota e compartilhar o link.",
+		"explanation": "a nota vai expirar e ser destruída após {type}.",
+		"new_note": "nova nota",
+		"new_note_notice": "<b>disponibilidade:</b><br />não há garantia de que a nota será mantida, pois tudo fica armazenado em memória; se ela encher, as notas mais antigas serão removidas.<br />(provavelmente não haverá problema, fica apenas o aviso.)",
+		"errors": {
+			"note_too_big": "não foi possível criar a nota. a nota é grande demais",
+			"note_error": "não foi possível criar a nota. tente novamente.",
+			"max": "máx.: {n}",
+			"empty_content": "a nota está vazia."
+		},
+		"messages": {
+			"note_created": "nota criada."
+		},
+		"advanced": {
+			"explanation": "Por padrão, uma senha gerada com segurança é usada em cada nota. Você também pode escolher a sua própria senha, que não é incluída no link.",
+			"custom_password": "senha personalizada"
+		},
+		"pasting": "Colando...",
+		"pasted_files": "Arquivos colados",
+		"remove": "Remover"
+	},
+	"show": {
+		"errors": {
+			"not_found": "a nota não foi encontrada ou já foi apagada.",
+			"decryption_failed": "senha incorreta. não foi possível decifrar. provavelmente o link está corrompido. a nota foi destruída.",
+			"unsupported_type": "tipo de nota não suportado."
+		},
+		"explanation": "clique abaixo para exibir a nota; ela será apagada quando o contador atingir o limite",
+		"show_note": "exibir nota",
+		"warning_will_not_see_again": "você <b>não</b> terá outra chance de ver esta nota.",
+		"download_all": "baixar tudo",
+		"links_found": "links encontrados na nota:"
+	},
+	"file_upload": {
+		"selected_files": "Arquivos selecionados",
+		"no_files_selected": "Nenhum arquivo selecionado",
+		"clear": "Limpar"
+	}
+}
